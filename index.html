@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Astronomía</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        header nav a, footer nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            flex: 1;
+        }
+        section {
+            width: 30%;
+            background-color: #f4f4f4;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        article {
+            width: 60%;
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .caption {
+            text-align: center;
+            font-style: italic;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Inicio</a>
+            <a href="#about">Sobre Nosotros</a>
+            <a href="#services">Servicios</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Sección Izquierda</h2>
+            <img src="https://newsweekespanol.com/wp-content/uploads/2024/06/Meteoritos-Marte-scaled.webp" alt="Marte">
+            <p class="caption">Marte: El planeta rojo.</p>
+        </section>
+        <article>
+            <h1>Bienvenido a la Página de Astronomía</h1>
+            <img src="https://www.ngenespanol.com/wp-content/uploads/2024/02/jupiter-podria-haber-sido-plano-alguna-vez-sugiere-nueva-teoria.jpg" alt="Júpiter">
+            <p class="caption">Júpiter: El gigante gaseoso.</p>
+            <p>Contenido principal sobre astronomía.</p>
+        </article>
+        <section>
+            <h2>Sección Derecha</h2>
+            <img src="https://diariohoynet.nyc3.cdn.digitaloceanspaces.com/adjuntos/galerias/000/557/0000557490.jpg" alt="Saturno">
+            <p class="caption">Saturno: El planeta de los anillos.</p>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <a href="#privacy">Privacidad</a>
+            <a href="#terms">Términos</a>
+            <a href="#support">Soporte</a>
+            <a href="#faq">FAQ</a>
+        </nav>
+    </footer>
+</body>
+</html>
